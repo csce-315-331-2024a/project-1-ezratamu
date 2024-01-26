@@ -1,0 +1,41 @@
+.landingpageBody   {
+    background-color: #7F5539;
+    height: 80vh;
+    width: 100vw;
+
+}
+
+.landingpageHeader  {
+    background-color: #EDE0D4;
+    width: 100%;
+ 
+}
+
+.landingpageContent {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.landingpageLeft    {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.landingpageRight   {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.landingpageSocials  {
+    display: flex;
+
+}
+
+.landingpageAboutme  {
+    display: flex;
+
+}
+
