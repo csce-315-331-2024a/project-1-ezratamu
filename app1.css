@@ -147,9 +147,33 @@ a:link, a:visited, a:hover, a:active {
 }
 
 
+.portfolioFooter    {
+    margin-top: 10vh;
+    height: 49px;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footerText {
+    color: white;
+    
+}
+
 /* end of portfolio css code*/
 
 /* start of qualifications css code*/
+
+
+.qualificationsFooter    {
+    margin-top: 14vh;
+    height: 49px;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
 .quallypageBody   {
     background-color: #aa8b7e;
     margin: 0;
@@ -223,6 +247,14 @@ a:link, a:visited, a:hover, a:active {
 /* end of qualifications css code*/
 
 /* start of service css code*/
+
+.serviceFooter    {
+    margin-top: 60vh;
+    height: 49px;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-evenly;
+}
 
 .servicepageBody   {
     background-color: #aa8b7e;
