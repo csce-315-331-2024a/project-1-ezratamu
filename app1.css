@@ -58,6 +58,7 @@ a:link, a:visited, a:hover, a:active {
     flex-direction: column;
     justify-content: space-around;
     width: 80vh;
+    margin-top: 50px;
 
 }
 
@@ -66,10 +67,19 @@ a:link, a:visited, a:hover, a:active {
 
 }
 
+.landingpageTitles {
+    color: white;
+    text-shadow:
+        -1px -1px 0 black,
+         1px -1px 0 black,
+        -1px  1px 0 black,
+         1px  1px 0 black;
+}
+
 
 .landingpageImage   {
     height: 247px;
-    border: black;
+    border: rgb(255, 255, 255);
     border-radius: 10px;
 }
 
@@ -83,14 +93,14 @@ a:link, a:visited, a:hover, a:active {
 
 .landingpageContact {
     font: 100px;
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
     margin-right: 50px;
 }
 
 .landingpageBio {
     text-align:center;
-    font-size: 22px;
+    font-size: 27px;
     
 
 }
@@ -123,6 +133,17 @@ a:link, a:visited, a:hover, a:active {
     margin-bottom: 30px;
     margin-top: 20px;
     margin-left: 20px;
+    font-size: 19px;
+    color: white;
+
+}
+
+.portfolioTitle {
+    text-shadow:
+        -1px -1px 0 black,
+         1px -1px 0 black,
+        -1px  1px 0 black,
+         1px  1px 0 black;
 }
 
 
@@ -166,14 +187,20 @@ a:link, a:visited, a:hover, a:active {
 
 .quallypageTechnical    {
     margin-left: 30px;
-    
+}
 
+.quallyTitles   {
+    color: white;
+    text-shadow:
+        -1px -1px 0 black,
+         1px -1px 0 black,
+        -1px  1px 0 black,
+         1px  1px 0 black;
+    text-align: center;     
 }
 
 .quallypageInterest {
     margin-left: 20px;
-  
-
 }
 
 .quallypageResume   {
@@ -231,12 +258,23 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .servicepageLeft    {
-    margin-left: 10px;
+    margin-left: 15px;
+    margin-right: 10px;
 }
 
 .servicepageRight    {
     margin-left: 8px;
     margin-right: 10px;
+}
+
+.serviceTitle   {
+    color: white;
+    text-align: center;
+    text-shadow:
+        -1px -1px 0 black,
+         1px -1px 0 black,
+        -1px  1px 0 black,
+         1px  1px 0 black;
 }
 
 
@@ -249,7 +287,7 @@ a:link, a:visited, a:hover, a:active {
 .serviceimage2  {
     display:flex;
     justify-content: center;
-    border-radius: 20x;
+    border-radius: 20px;
 }
 
 
@@ -328,7 +366,8 @@ footer {
     background-color: #d3b8ae;
     text-align: center;
     padding: 15px 0;
-    margin-top: 20px;
+    margin-top: 47vh;
+    width: 100%;
 }
 
 @media screen and (max-width: 600px) {
