@@ -166,7 +166,7 @@ a:link, a:visited, a:hover, a:active {
 
 
 .qualificationsFooter    {
-    margin-top: 14vh;
+    margin-top: 24vh;
     height: 49px;
     font-size: 25px;
     display: flex;
@@ -249,18 +249,18 @@ a:link, a:visited, a:hover, a:active {
 /* start of service css code*/
 
 .serviceFooter    {
-    margin-top: 60vh;
     height: 49px;
     font-size: 25px;
     display: flex;
     justify-content: space-evenly;
+    margin-top: 50%;
 }
 
 .servicepageBody   {
     background-color: #aa8b7e;
     margin: 0;
     padding: 0;
-    height: 85vh;
+    
     
 
 }
@@ -398,7 +398,6 @@ footer {
     background-color: #d3b8ae;
     text-align: center;
     padding: 15px 0;
-    margin-top: 47vh;
     width: 100%;
 }
 
