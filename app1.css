@@ -26,8 +26,9 @@ a:link, a:visited, a:hover, a:active {
     background-color: #e6d5ce;
     width: 100%;
     text-align: center;
-    height: 15vh;
+    height: 12vh;
     font-size: 20px;
+    padding: 25px 0;
  
 }
 
@@ -148,6 +149,7 @@ a:link, a:visited, a:hover, a:active {
 
 
 .portfolioFooter    {
+    background-color: #e6d5ce;
     margin-top: 10vh;
     height: 49px;
     font-size: 25px;
@@ -166,6 +168,7 @@ a:link, a:visited, a:hover, a:active {
 
 
 .qualificationsFooter    {
+    background-color: #e6d5ce;
     margin-top: 24vh;
     height: 49px;
     font-size: 25px;
@@ -249,6 +252,7 @@ a:link, a:visited, a:hover, a:active {
 /* start of service css code*/
 
 .serviceFooter    {
+    background-color: #e6d5ce;
     height: 49px;
     font-size: 25px;
     display: flex;
@@ -395,7 +399,7 @@ a:link, a:visited, a:hover, a:active {
 
 
 footer {
-    background-color: #d3b8ae;
+    background-color: #e6d5ce;
     text-align: center;
     padding: 15px 0;
     width: 100%;
