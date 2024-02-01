@@ -106,6 +106,10 @@ a:link, a:visited, a:hover, a:active {
 
 }
 
+.Github {
+    inner-html: "Github";
+}
+
 /* end of landing page css code*/
 
 /* start of portfolio css code*/
