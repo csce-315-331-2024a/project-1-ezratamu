@@ -1,4 +1,9 @@
 
+.page1  {
+    display: none;
+}
+
+
 a:link, a:visited, a:hover, a:active {
     color: inherit;
 }
@@ -153,4 +158,29 @@ a:link, a:visited, a:hover, a:active {
 
 
 /*qualifications*/
+
+
+/* service*/
+.servicelinkWords  {
+    color: #cdcdcd;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    max-width: 800px; /* Adjust this value to limit the width of the text */
+    margin: 0 auto; /* Center the text by setting left and right margins to auto */
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-weight: 300;
+    text-shadow:
+        -.05px -.05px 0 white,
+         .05px -.05px 0 white,
+        -.05px  .05px 0 white,
+         .05px  .05px 0 white;
+    
+}
+
+
+
+
 

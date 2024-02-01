@@ -7,7 +7,7 @@ window.onload = function() {
     };
 
     buttons[1].onclick = function() {
-        dynamicContentContainer.innerHTML = '<a href="resume-link.html" id="replaceableLink"><img src="resume-image-path.jpg" alt="Resume" /></a>';
+        dynamicContentContainer.innerHTML = '<a href="https://docs.google.com/document/d/1sGSlxGX9mVve7tX1sesGkt9JjJSwxh2bu6Uw1CoMcOw/edit?usp=sharing" id="replaceableLink"><img src="pictures/resume.png" alt="Resume" height="400"/></a>';
     };
 
     buttons[2].onclick = function() {
