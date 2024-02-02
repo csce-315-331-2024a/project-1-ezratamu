@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Qualifications</title>
-    <link rel="stylesheet" href="app1.css">
+    <link rel="stylesheet" href="app1.css" id="themeStylesheet"> 
 </head>
+<div class = "page1">
 <body class = "quallypageBody">
 
     <!-- Header Div -->
@@ -58,12 +59,77 @@
         <a href = "index.html" class = "footerText"> Landing Page  </a>
         <a href = "portfolio.html" class = "footerText"> Portfolio  </a>
         <a href = "service.html" class = "footerText"> Service  </a>
-        <a href = "aiwork.html" class = "footerText"> AI work  </a>
-        <button class="portfolioThemeBtn">Switch Theme</button>
+        <a href = "aiwork2.html" class = "footerText"> AI work  </a>
+        <button class="portfolioThemeBtn" onclick="toggleStyleSheet()">Switch Theme</button>
 
     </footer>
 
-    
-    
+    <script src="scripts/toggle.js"></script>
+  
 </body>
+</div>
+<!--end of page one-->
+
+<div class="page2">
+    <div class="landingpageBody">
+        <div class="landingpageLeft">
+            <div class="landingpageHeader">
+                <h1>Qualifications</h1>
+    
+            </div>
+            <!-- Header Div ends -->
+            <!-- Content Div-->
+            <div class="landingpageContent">
+    
+                
+           
+                <div class="portfolioButtons">
+                    <button class="portfolioSquareButton" data-link="link1">Skills </button>
+                    <button class="portfolioSquareButton" data-link="link2">Resume</button>
+                    <button class="portfolioSquareButton" data-link="link3">Areas of Interest</button>
+                </div>
+                
+                <!-- yapping Div-->
+                <div id="dynamicLink" class = "linkWords">
+                    <p id="replaceableLink"> Skills - Languages: Python, JavaScript, Assembly, C++ ||| Tools: MatPlotLib, React, Node, Express.js, MongoDB, Mongoose, Pipedream, Playwright, JSX, Electron, Selenium ||| Miscellaneous: LaTeX, Blender, Yosys, ABC, Git, Github, Linux, LTSpice, SLURM, Postgresql ||| Soft Skills: Problem Solving, Teamwork, Communication
+                    </p>
+                </div>
+                <!-- yapping Div end-->
+               
+            </div>
+            <!-- Content Div ends-->
+        </div>
+        <!-- Left Div ends-->
+    
+        <!-- Right Div starts where nav bar goes-->
+        <div class="landingpageRight" >
+            <!-- Nav bar with boxes -->
+            <div class = "navbarBox" style = "background-color: #D7D7D7; color: #000000;">
+                <a href="index.html">Landing Page</a>
+            </div>
+            <div class = "navbarBox" style = "background-color: #8D8D8D; color: #000000;">
+                <a href="portfolio.html">Portfolio</a>
+            </div>
+            <div class = "navbarBox" style = "background-color: #535353; color: #D7D7D7;">
+                <a href="service.html">Service</a>
+            </div>
+            <div class = "navbarBox" style = "background-color: #141414; color: #D7D7D7;">
+                <a href="aiwork2.html">AI Work</a>
+            </div>
+            <div class = "landingpageButton">
+                <button class = "landingpageButton" onclick="toggleStyleSheet()">
+                    Switch Themes
+                </button>
+            </div>
+        </div>
+    
+        
+    
+    </div>
+    <script src="scripts/toggle.js"></script>
+    <script src="scripts/qualificationsScript.js"></script>
+
+</div>
+
+
 </html>
