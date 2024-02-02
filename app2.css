@@ -11,8 +11,8 @@ a:link, a:visited, a:hover, a:active {
 
 .landingpageBody   {
     background-color: #1E1E1E;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     height: 110vh;
     font-family: 'Inknut Antiqua', sans-serif; 
 }
@@ -101,8 +101,8 @@ a:link, a:visited, a:hover, a:active {
 
 .portfolioBody   {
     background-color: #1E1E1E;
-    margin: 10px;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     height: 100vh;
     font-family: 'Inknut Antiqua', sans-serif; 
 }
@@ -155,25 +155,52 @@ a:link, a:visited, a:hover, a:active {
 
 
 /*qualifications*/
-
+.quallypageBody2   {
+    background-color: #1E1E1E;
+    margin: 0px;
+    padding: 0px;
+    height: 110vh;
+    font-family: 'Inknut Antiqua', sans-serif; 
+}
 
 /* service*/
+.servicepageBody2   {
+    background-color: #1E1E1E;
+    margin: 0px;
+    padding: 0px;
+    height: 110vh;
+    font-family: 'Inknut Antiqua', sans-serif; 
+}
+
+
 .servicelinkWords  {
     color: #cdcdcd;
-    font-size: 16px;
+    font-size: 17px;
     display: flex;
     justify-content: center;
     text-align: center;
     max-width: 800px; /* Adjust this value to limit the width of the text */
     margin: 0 auto; /* Center the text by setting left and right margins to auto */
-    margin-top: 40px;
+    margin-top: 30px;
     margin-bottom: 10px;
     font-weight: 300;
+
+    letter-spacing:4px;
+    word-spacing:4px;
+    line-height:20px;
+    white-space: pre-line;
    
     
 }
 
+servicelinkWords:link, servicelinkWords:visited, servicelinkWords:hover, servicelinkWords:active {
+    color: none;
+}
 
+.servicelinkWords a {
+    text-decoration: none; /* Removes underline from links */
+    color: #cdcdcd; /* Example: Sets the link color */
+}
 
 
 
