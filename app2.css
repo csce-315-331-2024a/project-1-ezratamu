@@ -76,8 +76,8 @@ a:link, a:visited, a:hover, a:active {
     display: flex;
     justify-content: center;
     text-align: center;
-    max-width: 800px; /* Adjust this value to limit the width of the text */
-    margin: 0 auto; /* Center the text by setting left and right margins to auto */
+    max-width: 800px; 
+    margin: 0 auto; 
     margin-bottom: 40px;
 }
 
@@ -93,7 +93,7 @@ a:link, a:visited, a:hover, a:active {
     transition: background-color 0.3s ease, transform 0.1s ease;
 }
 
-/* Correcting the pseudo-classes to directly target .landingpageButton */
+
 
 
 
@@ -109,16 +109,16 @@ a:link, a:visited, a:hover, a:active {
 
 .portfolioButtons {
     display: flex;
-    justify-content: space-around; /* Spreads the buttons evenly */
-    margin: 20px 0; /* Adds some space above and below the button row */
+    justify-content: space-around; 
+    margin: 20px 0; 
 }
 
 .portfolioSquareButton {
-    width: 200px; /* Sets both width and height to the same value to create a square */
+    width: 200px; 
     height: 150px;
-    margin: 0 10px; /* Optional: Adds margin between buttons */
+    margin: 0 10px; 
     border-radius: 30px;
-    /* Inherits styles from .landingpageButton for consistency */
+    
 }
 
 .linkWords  {
@@ -127,8 +127,8 @@ a:link, a:visited, a:hover, a:active {
     display: flex;
     justify-content: center;
     text-align: center;
-    max-width: 800px; /* Adjust this value to limit the width of the text */
-    margin: 0 auto; /* Center the text by setting left and right margins to auto */
+    max-width: 800px; 
+    margin: 0 auto; 
     margin-top: 40px;
     margin-bottom: 10px;
     font-weight: 300;
@@ -144,7 +144,7 @@ a:link, a:visited, a:hover, a:active {
     display: flex;
     justify-content: center;
     margin-top:50px;
-    transition: transform 0.4s; /* Add a transition for smoother effect */
+    transition: transform 0.4s; 
     
 }
 
@@ -179,8 +179,8 @@ a:link, a:visited, a:hover, a:active {
     display: flex;
     justify-content: center;
     text-align: center;
-    max-width: 800px; /* Adjust this value to limit the width of the text */
-    margin: 0 auto; /* Center the text by setting left and right margins to auto */
+    max-width: 800px; 
+    margin: 0 auto; 
     margin-top: 30px;
     margin-bottom: 10px;
     font-weight: 300;
@@ -198,8 +198,8 @@ servicelinkWords:link, servicelinkWords:visited, servicelinkWords:hover, service
 }
 
 .servicelinkWords a {
-    text-decoration: none; /* Removes underline from links */
-    color: #cdcdcd; /* Example: Sets the link color */
+    text-decoration: none; 
+    color: #cdcdcd; 
 }
 
 
